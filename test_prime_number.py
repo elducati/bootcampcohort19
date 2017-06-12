@@ -11,7 +11,10 @@ class Prime_numberTest(unittest.TestCase):
 	def test_type(self):
 		expected = [2, 3, 5]
 		self.assertIsInstance(expected, list)
-	
+	def test_n_as_int(self):
+		expected = [2, 3, 5]
+		for i in expected:
+			self.assertIsInstance(i, int )
 
 if __name__ == '__main__':
 	unittest.main()
