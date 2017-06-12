@@ -8,7 +8,10 @@ class Prime_numberTest(unittest.TestCase):
 	def test_prime_number(self):
 		expected = [2, 3, 5]
 		self.assertEqual( prime_number(7),expected)
-		
+	def test_type(self):
+		expected = [2, 3, 5]
+		self.assertIsInstance(expected, list)
+	
 
 if __name__ == '__main__':
 	unittest.main()
