@@ -8,10 +8,10 @@ class TempConvertortest(unittest.TestCase):
 
 	def test_celcius_is_converted_to_farenheit(self):
 		"""
-			F =( C - 32 ) * 5/9 
+			F =( celcius * 9/5) + 32 
 		"""
 		actual = convert_celcius_to_farenheit(10)
 		expected = 50
 		self.assertEqual(actual, expected,
-						'celcus should convert to correc farenheit')
+						'celcius should convert to correc farenheit')
 		self.assertEqual(convert_celcius_to_farenheit(20))
