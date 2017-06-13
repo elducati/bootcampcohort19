@@ -2,7 +2,6 @@ def prime_number(n):
 	primes = []
 	if n<2:
 		return False
-
 	else:
 		for prime in range(2, n):
 		    for b in range(2, prime):
@@ -10,5 +9,4 @@ def prime_number(n):
 		            break
 		    else:
 		        primes.append(prime)
-
 		return primes
