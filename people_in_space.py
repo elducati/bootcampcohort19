@@ -4,6 +4,6 @@ import requests
 response = requests.get("http://api.open-notify.org/astros.json")
 data = response.json()
 
-# 9 people are currently in space.
+# 3 people are currently in space.
 print(data["number"])
 print(data)
