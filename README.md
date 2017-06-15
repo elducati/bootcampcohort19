@@ -36,3 +36,9 @@
 
 
 -**word_count.py**: Creates a words method that takes a string and outputs a hash of how frequently the word appears in the string. 
+
+
+-**binary_search.py**: creates a BinarySearch class with a method that implements the binary search algorithm.
+
+
+-**missing_number.py**: The function searches for a number that is in one list and not the other by comparing them.
