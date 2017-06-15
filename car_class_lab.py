@@ -29,36 +29,7 @@ class Car(object):
         else:
           pass
              
-#class instance    
-honda = Car('Honda')
-#car properties
-toyota = Car('Toyota', 'Corolla')
-toyota.name
-toyota.model
-#car number of doors
-opel = Car('Opel', 'Omega 3')
-porshe = Car('Porshe', '911 Turbo')
 
-[opel.num_of_doors, porshe.num_of_doors, Car('Koenigsegg', 'Agera R').num_of_doors]
-#car number of wheels
-man = Car('MAN', 'Truck', 'trailer')
-man.num_of_wheels
-koenigsegg = Car('Koenigsegg', 'Agera R')
-koenigsegg.num_of_wheels
-[koenigsegg.num_of_wheels, man.num_of_wheels]
-
-koenigsegg = Car('Koenigsegg', 'Agera R')
-koenigsegg.is_saloon()
-
-man = Car('MAN', 'Truck', 'trailer')
-parked_speed = man.speed
-moving_speed = man.drive(7).speed
-[parked_speed, moving_speed]
-
-man = Car('Mercedes', 'SLR500')
-parked_speed = man.speed
-moving_speed = man.drive(3).speed
-[parked_speed, moving_speed]
 
 
 
