@@ -1,5 +1,5 @@
 def find_max_min(num_list):
-    for i in num_list:
+     for i in num_list:
         max_num = max(num_list) #finds the maximum number on the list
         min_num = min(num_list) #finds the minimum number on the list
         # assigns to variable max_min_num the list of the result of max_num and min_num
